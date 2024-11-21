@@ -16,7 +16,7 @@ namespace DemoConcurrencia
                 Thread.Sleep(2000);
                 ActualizarResultado($" Actividad - paso {i + 1}");
             }
-            ActualizarResultado("Fin del proceso secuencial.");
+            ActualizarResultado("¡Fin del proceso secuencial!");
         }
 
         private void ActualizarResultado(string mensaje)
